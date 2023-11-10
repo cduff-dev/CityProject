@@ -54,7 +54,7 @@ public class PlayerCon : MonoBehaviour
     {
         moveVector = context.ReadValue<UnityEngine.Vector2>();
         direction = new UnityEngine.Vector3(moveVector.x, 0, moveVector.y);
-        if(moveVector.magnitude>0)
+        if(direction.magnitude>0)
         {
             animator.SetBool("isWalking", true);
         }
@@ -73,7 +73,9 @@ public class PlayerCon : MonoBehaviour
     {
         if(characterController.isGrounded && velocity < 0.0f)
         {
-            velocity = -1.0f;
+            velocity = 0.0f;
+            animator.SetBool("Grounded", true);
+            
         }
         else
         {
@@ -85,13 +87,21 @@ public class PlayerCon : MonoBehaviour
 
     public void OnJump()
     {
-         velocity+=jumpPower;
+        velocity+=jumpPower;
     }
     public void Jump(InputAction.CallbackContext context)
     {
-        if(context.performed && characterController.isGrounded)
+        /*if(!context.started) return;
+        if(!characterController.isGrounded) return;
+        
+        animator.Play("Jump");
+        OnJump();
+        */
+
+        if(context.started && characterController.isGrounded)
         {
-            animator.Play("Jump");
+            //animator.Play("Jump");
+            animator.SetBool("Grounded", false);
             OnJump();
         }
         
