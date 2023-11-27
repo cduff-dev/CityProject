@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QVRBRWxZMy8vLy8vQUFBQUtPV003OEZadEVZYnV0WHp0Lzc1VHZKOVVKWWhZWXNXRXhSUTZ1eFJ5elRBYTVsRmREaHlabENySExBRDMyMUEyaDVONW83d094WUx6K2JhMUFBNWJITWdVaGFxVDdXQjllSmVPa3B1TGl5YncrN3ZSYjd4dkdGQVQydW9JQnNsTVNOSjJLblJ4bzZrMVU1R0E5WEZVOXFJc3JHR09PRXJzd2ZkNnY4ZGVQTnQ4VTkxSlBBaWZVVU41eWNLTHBiWXA3aEtrLzg2cHFGMHI1TEh6cFlNQk9MWFVmWU1KM1oxMEZKVDlKMVJIRlcvY01Rb29hSUhrM2xFQUVkaGhhR1R4eURlSWEvTERkMGZzVVZiNkl6OW1yR1FqYUJBNGt3azlzQmp1VStNV3U0eDNidVF0WHl0WmYrSkhhODhabW5Cblh1aC9LbzVTQVE2czNmZ0p2VXFzQmIwaHpaU1JSNmJOOFpoc3hQWDhFTGY=
+    vuforiaLicenseKey: Aactgqb/////AAABmfpVBRJdIkU4h55zZTlzVDRLxG4twVwtd6OV06gGoeCt727hpfv9h/rVU4iFcD18etKVJ0F0eU6jAMXpEfPkfZAJKtcCdXICALWEJHR6tn7wdByRwL3eAmSIsZxn2P1XUBbRwT8i0kENpXrZ0Yg32nNGGwxqIHAvfXpFr4pYbQptevkqGrj2pvQzH6DlVibDz8bEEQQfi+Oh/2/zJWdzGbrvfRYiPAbFVF1o5RxzDokZuEYz6gMAeBGjHWWTZ43cd7Ue+t2ennFWg/Pk6tW/LqwNDphiy2DKuoR67ainRjMb8Ow9BFuEGEg3P0C2j2wGSlrR2y3SqUT+EiLg+0OF24g1WUBcvm3e2og9GynPS63S
+    ufoLicenseKey: QVh0clc2SC8vLy8vQUFBQUtPTUR4RFlCdUU0U2xuNHY2dVYrNkRFNGs0aG5mbDI2T3hrY09DalJHTkp0djBKUHA2UHlGRUFFS2p2N1RCY1Zwc2Vja0JYQ1NYSmMxRVR4YnIvRnpUSVRha3hOTHluNUZIUzBXcEkwWUxKMFIvcjhWSWxIbGpqeXFrakV1Ylo1OEQ1ckdOa0ptVDZWOCs1cVVvZmJUTXc2K050WWVBMnJheksycmM3cmZFRE82bFF6L1JJMkNDL2hLN1d2dFYvdkRXdFcwVEVkZHZvby9zUmYyRzlMVEJPOWNyM3JMZ0FMN1ZSK3NhWDRtaFFIRnRaWnEzQlBRMHJpd2g3RUExTlBjSVZqcWJEekNIK0d1WlRHc2ljTUVJOUh0V3k4MjhVYXlUWXBvVHpQSEJzNWU3bk9zZ2Q0aXZvT2x6YUNZamFTT1BjQmMyUDU2MHA5NlQvNkttczJkL1dycFFYYmltTlFoNjhHR1grMll3SWI=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 4
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
-    shareRecordingsInITunes: 0
+    shareRecordingsInITunes: 1
     logLevel: 0
     version: 10.18.4
     eulaAcceptedVersions: '{"Values":["","0.0","10.18"]}'
   database:
-    disableModelExtraction: 0
+    disableModelExtraction: 1
   shaders:
     depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
     outlineShader: {fileID: 4800000, guid: c1ded68d068051d4f92650fcddaae5c7, type: 3}
@@ -44,7 +44,7 @@ MonoBehaviour:
     autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
-    mRecordingPath: 
+    mRecordingPath: Assets/SamplesResources/Recordings/area_target.mp4
     playModeType: 0
   webcam:
     renderTextureLayer: 30

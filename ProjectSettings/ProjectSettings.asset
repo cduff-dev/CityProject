@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 27
-  productGUID: 90662a137ae56b94b911cf62ffc883a6
+  productGUID: 7e4477b4b8eba464087b36791d09613b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -64,7 +64,7 @@ PlayerSettings:
   allowedAutorotateToLandscapeLeft: 1
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
-  preserveFramebufferAlpha: 0
+  preserveFramebufferAlpha: 1
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 1
@@ -155,10 +155,9 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.vuforia.engine.VuforiaEngine
-    Lumin: com.PTCInc.VuforiaEngine
-    Standalone: com.PTCInc.VuforiaEngine
-    iPhone: com.vuforia.engine.VuforiaEngine
+    Android: com.vuforia.engine.coresamples
+    Standalone: com.vuforia.engine.coresamples
+    iPhone: com.vuforia.engine.coresamples
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -240,7 +239,7 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
-  clonedFromGUID: 8b5c5ba13498b415aa61bfaa25c79d0c
+  clonedFromGUID: 04bee5df75ad6492ab35ac65716a0f1a
   templatePackageId: 
   templateDefaultScene: 
   useCustomMainManifest: 0
@@ -553,7 +552,7 @@ PlayerSettings:
     m_GraphicsJobMode: 0
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
-    m_APIs: 15000000
+    m_APIs: 150000000b000000
     m_Automatic: 0
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
@@ -931,7 +930,7 @@ PlayerSettings:
     2293910: Assets/Common/Icons/UWP/Wide310x150Logo.scale-150.png
     2293960: Assets/Common/Icons/UWP/Wide310x150Logo.scale-200.png
     2294160: Assets/Common/Icons/UWP/Wide310x150Logo.scale-400.png
-  metroTileShortName: Vuforia Engine
+  metroTileShortName: 
   metroTileShowName: 0
   metroMediumTileShowName: 1
   metroLargeTileShowName: 0
@@ -945,6 +944,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 1
   platformCapabilities:
     WindowsStoreApps:
+      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -957,7 +957,6 @@ PlayerSettings:
       InternetClientServer: False
       VideosLibrary: False
       Objects3D: False
-      InternetClient: True
       RemoteSystem: False
       BlockedChatMessages: False
       PhoneCall: False
@@ -979,7 +978,7 @@ PlayerSettings:
       RecordedCallsFolder: False
       Contacts: False
       Proximity: False
-      CodeGeneration: False
+      InternetClient: True
       BackgroundMediaPlayback: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
@@ -1040,7 +1039,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 3
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 80e72acc-e945-40b7-9474-0beb65d99ccf
   framebufferDepthMemorylessMode: 0

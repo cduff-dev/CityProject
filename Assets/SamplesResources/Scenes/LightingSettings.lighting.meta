@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3a3ceb17604d1497e91de48a247bf38c
+guid: 89dff75098942454fb2523ff701fb3ea
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 4890085278179872738
@@ -8,8 +8,8 @@ NativeFormatImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 163598
-  packageName: Vuforia Engine
+  productId: 99026
+  packageName: Vuforia Core Samples
   packageVersion: 10.18.4
   assetPath: Assets/SamplesResources/Scenes/LightingSettings.lighting
-  uploadId: 616734
+  uploadId: 617709

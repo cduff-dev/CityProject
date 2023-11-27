@@ -8,8 +8,8 @@ NativeFormatImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 163598
-  packageName: Vuforia Engine
+  productId: 99026
+  packageName: Vuforia Core Samples
   packageVersion: 10.18.4
   assetPath: Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat
-  uploadId: 616734
+  uploadId: 617709
