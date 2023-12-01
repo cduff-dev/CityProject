@@ -11,6 +11,6 @@ public class ScoringSystem : MonoBehaviour
     public static int totalScore;
    void Update()
    {
-            Score.GetComponent<TMPro.TextMeshProUGUI>().text = "Score " + totalScore;    
+            Score.GetComponent<TMPro.TextMeshProUGUI>().text = "Score: " + totalScore;    
    }
 }
