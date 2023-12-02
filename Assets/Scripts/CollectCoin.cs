@@ -9,7 +9,7 @@ public class CollectCoin : MonoBehaviour
    private void OnTriggerEnter(Collider other)
    {
             collectSound.Play();
-            ScoringSystem.totalScore += pickupScore;  
+            GameController.totalScore += pickupScore;  
              Destroy(gameObject);  
    }
 }
