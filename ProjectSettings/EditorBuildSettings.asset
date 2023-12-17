@@ -14,5 +14,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ModelViewer.unity
     guid: e893b8f4214ab2e4eb62f8e15fac5f15
+  - enabled: 1
+    path: Assets/Scenes/ARGameLevel2.unity
+    guid: d7c663403e3ed564f96fe8f38c0c758e
+  - enabled: 1
+    path: Assets/Scenes/ARGameLevel3.unity
+    guid: 1782f9f31953b1f4a9c04e8085928164
+  - enabled: 1
+    path: Assets/Scenes/ControlsMenu.unity
+    guid: e552af4c3fe55b040ba6b317466d2df6
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
