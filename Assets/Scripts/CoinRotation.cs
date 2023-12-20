@@ -14,6 +14,7 @@ public class CoinRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Rotates coin each frame
         transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
     }
 }

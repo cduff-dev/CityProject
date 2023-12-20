@@ -10,16 +10,18 @@ public class MVController : MonoBehaviour
     int isRunningHash;
     int isJumpingHash;
 
-
+    //runs before start()
     void Awake()
     {
         animator = GetComponent<Animator>();
-
+        
+        //Used to reduce writing StringToHash Over and Over
         isWalkingHash = Animator.StringToHash("IsWalking");
         isRunningHash = Animator.StringToHash("IsRunning");
         isJumpingHash = Animator.StringToHash("IsJumping");
     }
 
+    //Sets character into Idle Animation
     public void IdleAnimationButton()
     {
         animator.SetBool(isWalkingHash, false);
@@ -27,13 +29,15 @@ public class MVController : MonoBehaviour
         animator.SetBool(isJumpingHash, false);
     }
 
+    //Sets character into Walking Animation
     public void WalkingAnimationButton()
     {
         animator.SetBool(isWalkingHash, true);
         animator.SetBool(isRunningHash, false);
         animator.SetBool(isJumpingHash, false);
-        //Debug.Log("Walking Pressed");
     }
+
+    //Sets character into Running Animation
     public void RunningAnimationButton()
     {
         animator.SetBool(isWalkingHash, true);
@@ -41,6 +45,7 @@ public class MVController : MonoBehaviour
         animator.SetBool(isJumpingHash, false);
     }
 
+    //Sets character into Jumping Animation
     public void JumpingAnimationButton()
     {
         animator.SetBool(isWalkingHash, false);
@@ -48,9 +53,10 @@ public class MVController : MonoBehaviour
         animator.SetBool(isJumpingHash, true);
     }
 
+    //Sets Scene to Main Menu
     public void returnToMainMenu()
     {
         SceneManager.LoadScene(0);
-        Debug.Log("Main menu button pressed");
+        //Debug.Log("Main menu button pressed");
     }
 }

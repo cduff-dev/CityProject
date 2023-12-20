@@ -15,10 +15,17 @@ public class GameController : MonoBehaviour
     public static bool Level1Finished = false;
     public static bool Level2Finished = false;
 
+   
    void Update()
    {
-       Score.GetComponent<TMPro.TextMeshProUGUI>().text = "Score: " + totalScore;  
+       UpdateScore();
        checkIfWon();  
+   }
+
+   //Updates score displayed on screen
+   public void UpdateScore()
+   {
+        Score.GetComponent<TMPro.TextMeshProUGUI>().text = "Score: " + totalScore;  
    }
 
     //Only called by button press
@@ -35,6 +42,7 @@ public class GameController : MonoBehaviour
 
    void checkIfWon()
    {
+        //Check if score = 40 and Level1 is finished. Loads Level2
         if(totalScore == 40)
         {
             if(Level1Finished == false)
@@ -46,6 +54,7 @@ public class GameController : MonoBehaviour
             
         }
 
+        //Check if score = 80 and Level2 & Level1 is finished. Loads Level3
         if(totalScore == 80)
         {
             if(Level1Finished == true && Level2Finished == false)
@@ -56,6 +65,7 @@ public class GameController : MonoBehaviour
             }
         }
         
+        //Checks if score = 120, Enables win text game object
          if(totalScore == 120)
         {
             WinText.SetActive(true);

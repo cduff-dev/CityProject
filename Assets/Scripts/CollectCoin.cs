@@ -6,6 +6,8 @@ public class CollectCoin : MonoBehaviour
 {
     public AudioSource collectSound;
     public int pickupScore;
+
+    //Collision functionality. play sound, add to player score, destroy the coin.
    private void OnTriggerEnter(Collider other)
    {
             collectSound.Play();
