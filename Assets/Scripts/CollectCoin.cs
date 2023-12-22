@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CollectCoin : MonoBehaviour
 {
+    //Adds an audio to game object that can be called later
     public AudioSource collectSound;
     public int pickupScore;
 

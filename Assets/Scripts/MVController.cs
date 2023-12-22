@@ -57,6 +57,6 @@ public class MVController : MonoBehaviour
     public void returnToMainMenu()
     {
         SceneManager.LoadScene(0);
-        //Debug.Log("Main menu button pressed");
+        
     }
 }

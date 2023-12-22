@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour
     public static bool Level1Finished = false;
     public static bool Level2Finished = false;
 
-   
+   //using single responsibility principle
    void Update()
    {
        UpdateScore();
@@ -40,6 +40,7 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene(0);
    }
 
+    //win condition & tracks gamestate
    void checkIfWon()
    {
         //Check if score = 40 and Level1 is finished. Loads Level2
