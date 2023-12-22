@@ -43,6 +43,12 @@ Controls Menu - View controls and objective of game
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**10 Minute Video Demonstartion**
+
+[Video Demonstration](https://youtu.be/Cajrcgtta40)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **File Download Link**
 
 [Download Link](https://studentdkit-my.sharepoint.com/:f:/g/personal/d00183790_student_dkit_ie/EsSvR-oMKDtFgLFXNnTqH4sBOT0wXqnKlULLSTueBmUX2w?e=Jxnh06)
@@ -72,4 +78,8 @@ Image Target - Konami/Shueisha/Studio Dice/Tv Tokyo
 Character Animations - Mixamo
 
 Character Controller - https://www.youtube.com/watch?v=UUJMGQTT5ts&t=688s  https://www.youtube.com/watch?v=bXNFxQpp2qk
+
+Background Music - https://www.youtube.com/watch?v=4sJijxXt_d4
+
+Unity Outline Shader - https://www.youtube.com/watch?v=Bm6Bmcjd1Mw&t=338s
 
